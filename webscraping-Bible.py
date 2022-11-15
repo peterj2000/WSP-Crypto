@@ -56,6 +56,8 @@ myCellPhone = "+12147998257"
 textmessage = client.messages.create(to=myCellPhone, from_=TwilioNumber,
     body=message)
 
+
+
 print(textmessage.status)
 
 
